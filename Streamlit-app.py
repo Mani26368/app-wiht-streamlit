@@ -47,17 +47,3 @@ ligne = df[df["Mois"] == mois_choisi].iloc[0]
 st.metric("Ventes", f"{ligne['Ventes']} €")
 st.metric("Dépenses", f"{ligne['Dépenses']} €")
 st.metric("Profit", f"{ligne['Profit']} €")
-```
-
----
-
-### Étapes suivantes :
-
-**1️⃣ Crée le fichier** `app.py` dans ton dépôt GitHub avec ce code
-
-**2️⃣ Crée un fichier** `requirements.txt` avec :
-```
-streamlit
-pandas
-numpy
-matplotlib
